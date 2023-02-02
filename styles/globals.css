@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .active_underline{
+        @apply pb-3 hover:border-b-black hover:border-b-2 transition-all ease-in-out duration-200;
+    }
+}
