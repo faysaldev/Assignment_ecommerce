@@ -1,0 +1,107 @@
+export const SocialData = [
+  {
+    id: 1,
+    name: "Zidane",
+    image: "/Asset/zidane.jpg",
+    position: "Leadership & Management",
+    social: [
+      { id: 1, icon: "/Asset/linkedin.png" },
+      { id: 2, icon: "/Asset/medium.png" },
+      { id: 3, icon: "/Asset/facebook@3x.png" },
+    ],
+  },
+  {
+    id: 2,
+    name: "Toni Kroos",
+    image: "/Asset/tonikroos.jpg",
+    position: "Product Developer",
+    social: [
+      { id: 1, icon: "/Asset/linkedin.png" },
+      { id: 2, icon: "/Asset/medium.png" },
+    ],
+  },
+  {
+    id: 3,
+    name: "IKer Casillas",
+    image: "/Asset/ikercasillas.jpg",
+    position: "Marketing Strategy",
+    social: [{ id: 2, icon: "/Asset/medium.png" }],
+  },
+  {
+    id: 4,
+    name: "James",
+    image: "/Asset/james.jpg",
+    position: "Product Designer",
+    social: [
+      { id: 1, icon: "/Asset/medium.png" },
+      { id: 3, icon: "/Asset/dribble.png" },
+    ],
+  },
+  {
+    id: 5,
+    name: "Cristiano",
+    image: "/Asset/christiano.jpg",
+    position: "Financial Operations",
+    social: [
+      { id: 1, icon: "/Asset/linkedin.png" },
+      { id: 3, icon: "/Asset/facebook@3x.png" },
+    ],
+  },
+];
+
+export const ProductData = [
+  {
+    id: 1,
+    name: "KSL 01",
+    price: 2000,
+    image: "/Asset/shoe.jpg",
+    reviews: 80,
+    description: "Get an exclusive 20% off shopping with HDFC Back",
+    size: [7, 8, 9, 10],
+  },
+  {
+    id: 2,
+    name: "KSW 01",
+    price: 2000,
+    image: "/Asset/shoe2.png",
+    reviews: 80,
+    description: "Get an exclusive 20% off shopping with HDFC Back",
+    size: [7, 8, 9, 10],
+  },
+  {
+    id: 3,
+    name: "Royal S 01",
+    price: 2000,
+    image: "/Asset/shoe.jpg",
+    reviews: 80,
+    description: "Get an exclusive 20% off shopping with HDFC Back",
+    size: [7, 8, 9, 10],
+  },
+  {
+    id: 4,
+    name: "KSL 02",
+    price: 2000,
+    image: "/Asset/shoe2.png",
+    reviews: 80,
+    description: "Get an exclusive 20% off shopping with HDFC Back",
+    size: [7, 8, 9, 10],
+  },
+  {
+    id: 5,
+    name: "KSW 02",
+    price: 2000,
+    image: "/Asset/shoe.jpg",
+    reviews: 80,
+    description: "Get an exclusive 20% off shopping with HDFC Back",
+    size: [7, 8, 9, 10],
+  },
+  {
+    id: 6,
+    name: "Royal S 02",
+    price: 2000,
+    image: "/Asset/shoe2.png",
+    reviews: 80,
+    description: "Get an exclusive 20% off shopping with HDFC Back",
+    size: [7, 8, 9, 10],
+  },
+];

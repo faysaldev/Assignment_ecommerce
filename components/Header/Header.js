@@ -9,7 +9,7 @@ const Header = () => {
       {/* header wrapper */}
       <div className="flex items-center justify-between">
         {/* left icon */}
-        <div className="w-[100px]">
+        <div className="w-[100px] cursor-pointer">
           <Image src="/Asset/logoB.png" width={50} height={20} />
         </div>
 
@@ -27,6 +27,11 @@ const Header = () => {
           </Link>
           <Link className="relative" href="/">
             <p className="active_underline uppercase font-semibold text-[#000]">
+              Team
+            </p>
+          </Link>
+          <Link className="relative" href="/store">
+            <p className="active_underline uppercase font-semibold text-[#000]">
               Store
             </p>
           </Link>
@@ -37,7 +42,7 @@ const Header = () => {
           </Link>
         </div>
         {/* right */}
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-2 cursor-pointer">
           <UserIcon className="h-6 text-[#777]" />
           {/* text */}
           <p className="uppercase font-semibold text-[#000]">Gagan</p>
