@@ -62,7 +62,7 @@ export const ProductData = [
   {
     id: 2,
     name: "KSW 01",
-    price: 2000,
+    price: 1554,
     image: "/Asset/shoe2.png",
     reviews: 80,
     description: "Get an exclusive 20% off shopping with HDFC Back",
@@ -71,7 +71,7 @@ export const ProductData = [
   {
     id: 3,
     name: "Royal S 01",
-    price: 2000,
+    price: 2004,
     image: "/Asset/shoe.jpg",
     reviews: 80,
     description: "Get an exclusive 20% off shopping with HDFC Back",
@@ -80,7 +80,7 @@ export const ProductData = [
   {
     id: 4,
     name: "KSL 02",
-    price: 2000,
+    price: 2015,
     image: "/Asset/shoe2.png",
     reviews: 80,
     description: "Get an exclusive 20% off shopping with HDFC Back",
@@ -89,7 +89,7 @@ export const ProductData = [
   {
     id: 5,
     name: "KSW 02",
-    price: 2000,
+    price: 1239,
     image: "/Asset/shoe.jpg",
     reviews: 80,
     description: "Get an exclusive 20% off shopping with HDFC Back",
@@ -98,7 +98,7 @@ export const ProductData = [
   {
     id: 6,
     name: "Royal S 02",
-    price: 2000,
+    price: 1590,
     image: "/Asset/shoe2.png",
     reviews: 80,
     description: "Get an exclusive 20% off shopping with HDFC Back",
